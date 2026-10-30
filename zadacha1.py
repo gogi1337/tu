@@ -1,8 +1,5 @@
 chislo = input("Въведете цяло число: ")
 
-if chislo[0] == "-":
-    chislo = chislo[1:]
-
 cifri = []
 for c in chislo:
     cifri.append(int(c))

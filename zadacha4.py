@@ -12,5 +12,4 @@ print("Речникът се състои от", len(d), "елемента:")
 keys = list(d.keys())
 keys.sort()
 for key in keys:
-    print(f"{key}:{d[key]}", end="   ")
-print()
+    print(f"{key}:{d[key]}")
